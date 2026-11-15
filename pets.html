@@ -1,0 +1,76 @@
+<!-- Name: Zainab Adeel | Roll No: 26i3233 | Section: E -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paws Pet Adoption - Available Pets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="pets.html" class="active">Available Pets</a>
+        <a href="adopt.html">Adopt Now</a>
+    </nav>
+
+    <h1>Paws Pet Shop</h1>
+    <p>Meet our lovely animals looking for a caring home.</p>
+
+    <h2>All Pets Available for Adoption</h2>
+    <table border="1">
+        <tr>
+            <th>Pet Name</th>
+            <th>Animal</th>
+            <th>Age</th>
+            <th>Breed</th>
+            <th>Vaccination Status</th>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>Dog</td>
+            <td>2 Years</td>
+            <td>Golden Retriever</td>
+            <td>Vaccinated</td>
+        </tr>
+        <tr>
+            <td>Milo</td>
+            <td>Cat</td>
+            <td>1 Year</td>
+            <td>Persian</td>
+            <td>Vaccinated</td>
+        </tr>
+        <tr>
+            <td>Coco</td>
+            <td>Rabbit</td>
+            <td>6 Months</td>
+            <td>Holland Lop</td>
+            <td>Vaccinated</td>
+        </tr>
+        <tr>
+            <td>Bella</td>
+            <td>Dog</td>
+            <td>3 Years</td>
+            <td>German Shepherd</td>
+            <td>Vaccinated</td>
+        </tr>
+        <tr>
+            <td>Tweety</td>
+            <td>Bird</td>
+            <td>8 Months</td>
+            <td>Cockatiel</td>
+            <td>Healthy</td>
+        </tr>
+    </table>
+
+    <br>
+    <button onclick="checkAvailability()">Check Adoption Status</button>
+
+    <script>
+        function checkAvailability() {
+            console.log("Check Adoption Status button clicked");
+            window.alert("All 5 pets listed above are currently available for adoption! Visit the Adopt Now page to apply.");
+        }
+    </script>
+
+</body>
+</html>
