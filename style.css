@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: lightyellow;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    padding: 15px;
+}
+
+h2 {
+    color: darkorange;
+}
+
+img {
+    border: 3px solid teal;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
+
+button {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
